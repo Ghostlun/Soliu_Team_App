@@ -50,5 +50,6 @@ class LoginViewController: UIViewController {
     
     @IBAction private func openRegisterView() {
             self.performSegue(withIdentifier: "openRegisterView", sender: nil)
+            print("openRegisterView")
         }
 }
